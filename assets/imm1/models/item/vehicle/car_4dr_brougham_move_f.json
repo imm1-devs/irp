@@ -1,0 +1,6 @@
+{
+	"parent": "imm1:item/vehicle/car_4dr_brougham",
+	"textures": {
+		"1": "imm1:item/vehicle/wheel_lowrider_spin_f"
+	}
+}

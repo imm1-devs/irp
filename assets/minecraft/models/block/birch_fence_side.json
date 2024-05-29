@@ -1,0 +1,6 @@
+{
+	"parent": "imm1:block/t_fence_side",
+	"textures": {
+		"0": "minecraft:block/birch_planks"
+	}
+}

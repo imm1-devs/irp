@@ -1,0 +1,6 @@
+{
+	"parent": "imm1:item/vehicle/car_2dr_compton",
+	"textures": {
+		"1": "imm1:item/vehicle/wheel_lowrider_spin_b"
+	}
+}

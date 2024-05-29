@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/carved_pumpkin",
+    "overrides": [
+        {"predicate": {"custom_model_data": 1001}, "model": "imm1:item/cloth/hat/hat_tophat"},
+        {"predicate": {"custom_model_data": 1101}, "model": "imm1:item/cloth/hat/cap_sanfalse"},
+        {"predicate": {"custom_model_data": 2002}, "model": "imm1:item/misc/rajabu"},
+        {"predicate": {"custom_model_data": 2003}, "model": "imm1:item/misc/rajabu_corpse"}
+    ]
+}

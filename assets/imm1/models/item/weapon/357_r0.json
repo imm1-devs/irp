@@ -1,0 +1,38 @@
+{
+	"parent": "imm1:item/weapon/357",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1, -0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1, -0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [20, 6.375, 5],
+			"translation": [-4.875, 2, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [20, 6.375, 5],
+			"translation": [-4.875, 2, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"translation": [1, 0, 0]
+		},
+		"head": {
+			"translation": [0, 9.5, 3]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-1, 0, -1.25]
+		}
+	}
+}

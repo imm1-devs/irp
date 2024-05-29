@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/stick"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1001}, "model": "imm1:item/weapon/lightning_stick"}
+    ]
+}

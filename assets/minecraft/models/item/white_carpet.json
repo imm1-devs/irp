@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/white_carpet",
+    "overrides": [
+        {"predicate": {"custom_model_data": 1001}, "model": "imm1:item/misc/acid"}
+    ]
+}

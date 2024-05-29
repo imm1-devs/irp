@@ -1,0 +1,6 @@
+{
+    "parent": "imm1:item/food/soda/can_full_sprite",
+    "textures": {
+        "0": "imm1:item/food/soda/soda_can_wrapper_cola"
+    }
+}

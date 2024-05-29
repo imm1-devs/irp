@@ -1,0 +1,41 @@
+[
+    {
+        "section": "imm1",
+        "titles": [
+            {
+                "title": "Server Owners",
+                "names": [
+                    "LeadRounds",
+                    "Jooper"
+                ]
+            },
+            {
+                "title": "Builders",
+                "names": [
+                    "Alpaka",
+                    "Jooper",
+                    "Jordan_Asher",
+                    "ROSTCityCreator2",
+                    "SoInquisitor",
+                    "Sparta_16",
+                    "Underestimate",
+                    "Wiscas",
+                    "yanyowo"
+                ]
+            },
+            {
+                "title": "Programmers",
+                "names": [
+                    "LeadRounds",
+                    "yusoff"
+                ]
+            },
+            {
+                "title": "Developer of the Resource Pack",
+                "names": [
+                    "LeadRounds"
+                ]
+            }
+        ]
+    }
+]

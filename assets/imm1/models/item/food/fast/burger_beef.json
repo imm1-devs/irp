@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/cooked_beef",
+  "textures": {
+    "layer0": "imm1:item/food/fast/burger_beef"
+  }
+}

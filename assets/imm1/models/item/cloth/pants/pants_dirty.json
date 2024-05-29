@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/leather_leggings",
+  "textures": {
+    "layer1": "imm1:item/cloth/pants/dirty_overlay"
+  }
+}

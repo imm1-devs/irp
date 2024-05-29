@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/leather_chestplate",
+  "textures": {
+    "layer1": "imm1:item/cloth/coat/dirty_overlay"
+  }
+}

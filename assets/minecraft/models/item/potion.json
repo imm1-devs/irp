@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "imm1:item/misc/marker"},
+		{"predicate": {"custom_model_data": 1001}, "model": "imm1:item/misc/spray"},
+        {"predicate": {"custom_model_data": 2101}, "model": "imm1:item/food/soda/can_full_sprite"},
+        {"predicate": {"custom_model_data": 2102}, "model": "imm1:item/food/soda/can_full_cola"},
+        {"predicate": {"custom_model_data": 2201}, "model": "imm1:item/food/drug/syrup_full"},
+        {"predicate": {"custom_model_data": 2301}, "model": "imm1:item/food/drug/blunt"},
+        {"predicate": {"custom_model_data": 12010}, "model": "imm1:item/vehicle/car_4dr_fiveo"},
+        {"predicate": {"custom_model_data": 12020}, "model": "imm1:item/vehicle/car_2dr_compton"},
+        {"predicate": {"custom_model_data": 12021}, "model": "imm1:item/vehicle/car_2dr_compton_move_f"},
+        {"predicate": {"custom_model_data": 12022}, "model": "imm1:item/vehicle/car_2dr_compton_move_b"},
+        {"predicate": {"custom_model_data": 12030}, "model": "imm1:item/vehicle/car_4dr_brougham"},
+        {"predicate": {"custom_model_data": 12031}, "model": "imm1:item/vehicle/car_4dr_brougham_move_f"},
+        {"predicate": {"custom_model_data": 12032}, "model": "imm1:item/vehicle/car_4dr_brougham_move_b"},
+        {"predicate": {"custom_model_data": 13010}, "model": "imm1:item/vehicle/heli_4dr_police"},
+        {"predicate": {"custom_model_data": 14010}, "model": "imm1:item/vehicle/bike_1dr_sandstorm"},
+        {"predicate": {"custom_model_data": 14011}, "model": "imm1:item/vehicle/bike_1dr_sandstorm_move_f"},
+        {"predicate": {"custom_model_data": 14012}, "model": "imm1:item/vehicle/bike_1dr_sandstorm_move_b"}
+    ]
+}

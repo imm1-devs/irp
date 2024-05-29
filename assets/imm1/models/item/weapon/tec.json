@@ -1,0 +1,37 @@
+{
+	"parent": "imm1:item/weapon/tec_f",
+	"textures": {
+		"1": "imm1:item/blank",
+		"2": "imm1:item/blank"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.5, -4],
+			"scale": [1, 1, 0.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.5, -4],
+			"scale": [1, 1, 0.75]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"translation": [1, 2, 0]
+		},
+		"head": {
+			"translation": [0, 14, 0]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-0.5, 1.75, -0.75]
+		}
+	}
+}

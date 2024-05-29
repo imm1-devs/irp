@@ -1,0 +1,39 @@
+{
+    "variants": {
+        "distance=1": [
+			{ "model": "imm1:block/leaves/spruce_leaves" },
+			{ "model": "imm1:block/leaves/spruce_leaves1" },
+			{ "model": "imm1:block/leaves/spruce_leaves2" }
+		],
+        "distance=2": [
+			{ "model": "imm1:block/leaves/spruce_leaves" },
+			{ "model": "imm1:block/leaves/spruce_leaves1" },
+			{ "model": "imm1:block/leaves/spruce_leaves2" }
+		],
+        "distance=3": [
+			{ "model": "imm1:block/leaves/spruce_leaves" },
+			{ "model": "imm1:block/leaves/spruce_leaves1" },
+			{ "model": "imm1:block/leaves/spruce_leaves2" }
+		],
+        "distance=4": [
+			{ "model": "imm1:block/leaves/spruce_leaves" },
+			{ "model": "imm1:block/leaves/spruce_leaves1" },
+			{ "model": "imm1:block/leaves/spruce_leaves2" }
+		],
+        "distance=5": [
+			{ "model": "imm1:block/leaves/spruce_leaves" },
+			{ "model": "imm1:block/leaves/spruce_leaves1" },
+			{ "model": "imm1:block/leaves/spruce_leaves2" }
+		],
+        "distance=6": [
+			{ "model": "imm1:block/leaves/spruce_leaves" },
+			{ "model": "imm1:block/leaves/spruce_leaves1" },
+			{ "model": "imm1:block/leaves/spruce_leaves2" }
+		],
+        "distance=7": [
+			{ "model": "imm1:block/leaves/spruce_leaves" },
+			{ "model": "imm1:block/leaves/spruce_leaves1" },
+			{ "model": "imm1:block/leaves/spruce_leaves2" }
+		]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "imm1:block/leaves/leaves_cross_spruce1",
+    "textures": {
+        "all": "block/leaves/spruce_leaves1",
+        "top": "block/leaves/spruce_leaves_top1",
+        "bottom": "block/leaves/spruce_leaves_bottom1",
+        "bushy": "block/leaves/spruce_leaves_bushy1"
+    }
+}

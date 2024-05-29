@@ -1,0 +1,236 @@
+{
+    "impact.glass": {
+        "sounds":[
+            "imm1:impact/glass_1",
+            "imm1:impact/glass_2",
+            "imm1:impact/glass_3"
+        ]
+    },
+    "loop.ambient_mine_29": {
+        "sounds":["imm1:loop/ambient_mine_29"]
+    },
+    "loop.birdscary": {
+        "sounds":["imm1:loop/birdscary"]
+    },
+    "loop.casino": {
+        "sounds":["imm1:loop/casino"]
+    },
+    "loop.crickets": {
+        "sounds":["imm1:loop/crickets"]
+    },
+    "loop.die_nibba_die": {
+        "sounds":["imm1:loop/die_nibba_die"]
+    },
+    "loop.dj_lady_style": {
+        "sounds":["imm1:loop/dj_lady_style"]
+    },
+    "loop.ebony_wood_stock": {
+        "sounds":["imm1:loop/ebony_wood_stock"]
+    },
+    "loop.grasshoppers": {
+        "sounds":["imm1:loop/grasshoppers"]
+    },
+    "loop.graveyard_47": {
+        "sounds":["imm1:loop/graveyard_47"]
+    },
+    "loop.is_that_the_door": {
+        "sounds":["imm1:loop/is_that_the_door"]
+    },
+    "loop.manhole_drain_cover": {
+        "sounds":["imm1:loop/manhole_drain_cover"]
+    },
+    "loop.me_and_craig": {
+        "sounds":["imm1:loop/me_and_craig"]
+    },
+    "loop.mine_29": {
+        "sounds":["imm1:loop/mine_29"]
+    },
+    "loop.my_little_pony": {
+        "sounds":["imm1:loop/my_little_pony"]
+    },
+    "loop.my_smokin_song": {
+        "sounds":["imm1:loop/my_smokin_song"]
+    },
+    "loop.questo_e_sporco": {
+        "sounds":["imm1:loop/questo_e_sporco"]
+    },
+    "loop.subculture": {
+        "sounds":["imm1:loop/subculture"]
+    },
+    "loop.tell_me_when_to_go": {
+        "sounds":["imm1:loop/tell_me_when_to_go"]
+    },
+    "loop.truck_stop_48_1": {
+        "sounds":["imm1:loop/truck_stop_48_1"]
+    },
+    "misc.bullet_hit": {
+        "sounds":[
+            "imm1:misc/bullet_hit_1",
+            "imm1:misc/bullet_hit_2",
+            "imm1:misc/bullet_hit_3",
+            "imm1:misc/bullet_hit_4"
+        ]
+    },
+    "misc.cash_register": {
+        "sounds":["imm1:misc/cash_register"]
+    },
+    "misc.crow": {
+        "sounds":["imm1:misc/crow"]
+    },
+    "misc.hawk": {
+        "sounds":["imm1:misc/hawk"]
+    },
+    "misc.police_siren": {
+        "sounds":["imm1:misc/police_siren"]
+    },
+    "weapon.fire.1911": {
+        "sounds":["imm1:weapon/fire/1911"]
+    },
+    "weapon.fire.ak": {
+        "sounds":["imm1:weapon/fire/ak"]
+    },
+    "weapon.fire.aku": {
+        "sounds":["imm1:weapon/fire/kennysvoice"]
+    },
+    "weapon.fire.beretta": {
+        "sounds":[
+            "imm1:weapon/fire/vice9_1",
+            "imm1:weapon/fire/vice9_2",
+            "imm1:weapon/fire/vice9_3",
+            "imm1:weapon/fire/vice9_4"
+        ]
+    },
+    "weapon.fire.f2000": {
+        "sounds":[
+            "imm1:weapon/fire/fokku_tc_f2000_1",
+            "imm1:weapon/fire/fokku_tc_f2000_2",
+            "imm1:weapon/fire/fokku_tc_f2000_3",
+            "imm1:weapon/fire/fokku_tc_f2000_4"
+        ]
+    },
+    "weapon.fire.mp40": {
+        "sounds":["imm1:weapon/fire/mp40"]
+    },
+    "weapon.fire.gauge": {
+        "sounds":["imm1:weapon/fire/gauge"]
+    },
+    "weapon.fire.gauto": {
+        "sounds":["imm1:weapon/fire/mikekoenig_1"]
+    },
+    "weapon.fire.gdhc50": {
+        "sounds":["imm1:weapon/fire/gdhc50"]
+    },
+    "weapon.fire.gdhc50_old": {
+        "sounds":["imm1:weapon/fire/gdhc50_old"]
+    },
+    "weapon.fire.glock": {
+        "sounds":["imm1:weapon/fire/mikekoenig_2"]
+    },
+    "weapon.fire.magnum": {
+        "sounds":["imm1:weapon/fire/magnum"]
+    },
+    "weapon.fire.m4a1": {
+        "sounds":["imm1:weapon/fire/superphat"]
+    },
+    "weapon.fire.morganpurkis": {
+        "sounds":["imm1:weapon/fire/morganpurkis"]
+    },
+    "weapon.fire.rifle": {
+        "sounds":["imm1:weapon/fire/rifle"]
+    },
+    "weapon.fire.spas": {
+        "sounds":["imm1:weapon/fire/spas"]
+    },
+    "weapon.fire.tec": {
+        "sounds":["imm1:weapon/fire/xtr"]
+    },
+    "weapon.fire.xtr": {
+        "sounds":["imm1:weapon/fire/xtr"]
+    },
+    "weapon.reload.pistol": {
+        "sounds":["imm1:weapon/reload/pistol"]
+    },
+    "weapon.reload.rifle": {
+        "sounds":["imm1:weapon/reload/rifle"]
+    },
+    "weapon.reload.shotgun": {
+        "sounds":["imm1:weapon/reload/shotgun"]
+    },
+    "speech.12.dirtbag": {
+        "sounds":["imm1:speech/12/dirtbag"]
+    },
+    "speech.12.dont_move": {
+        "sounds":["imm1:speech/12/dont_move"]
+    },
+    "speech.12.freeze": {
+        "sounds":["imm1:speech/12/freeze"]
+    },
+    "speech.12.get_away": {
+        "sounds":["imm1:speech/12/get_away"]
+    },
+    "speech.12.hands_up": {
+        "sounds":["imm1:speech/12/hands_up"]
+    },
+    "speech.12.illegal": {
+        "sounds":["imm1:speech/12/illegal"]
+    },
+    "speech.12.lawyer": {
+        "sounds":["imm1:speech/12/lawyer"]
+    },
+    "speech_maniac": {
+        "sounds":[
+            "imm1:speech/maniac/1",
+            "imm1:speech/maniac/2",
+            "imm1:speech/maniac/3"
+        ]
+    },
+    "ui.objective": {
+        "sounds":["imm1:ui/objective"]
+    },
+    "ui.pickup.money": {
+        "sounds":[
+            "imm1:ui/pickup/money_1",
+            "imm1:ui/pickup/money_2",
+            "imm1:ui/pickup/money_3",
+            "imm1:ui/pickup/money_4",
+            "imm1:ui/pickup/money_5"
+        ]
+    },
+    "ui.prompt": {
+        "sounds":["imm1:ui/prompt"]
+    },
+    "vehicle.bike.honda_cbf_500_engine": {
+        "sounds":["imm1:vehicle/bike/dycmaster_honda_cbf_500"]
+    },
+    "vehicle.car.eponn_engine": {
+        "sounds":["imm1:vehicle/car/eponn_engine"]
+    },
+    "vehicle.chopper.rotor": {
+        "sounds":[
+            "imm1:vehicle/chopper/rotor_1",
+            "imm1:vehicle/chopper/rotor_2",
+            "imm1:vehicle/chopper/rotor_3",
+            "imm1:vehicle/chopper/rotor_4",
+            "imm1:vehicle/chopper/rotor_5",
+            "imm1:vehicle/chopper/rotor_6",
+            "imm1:vehicle/chopper/rotor_7",
+            "imm1:vehicle/chopper/rotor_8",
+            "imm1:vehicle/chopper/rotor_9",
+            "imm1:vehicle/chopper/rotor_10",
+            "imm1:vehicle/chopper/rotor_11",
+            "imm1:vehicle/chopper/rotor_12",
+            "imm1:vehicle/chopper/rotor_13",
+            "imm1:vehicle/chopper/rotor_14",
+            "imm1:vehicle/chopper/rotor_15",
+            "imm1:vehicle/chopper/rotor_16"
+        ]
+    },
+    "vehicle.chopper.engine": {
+        "sounds":[
+            "imm1:vehicle/chopper/engine_1",
+            "imm1:vehicle/chopper/engine_2",
+            "imm1:vehicle/chopper/engine_3",
+            "imm1:vehicle/chopper/engine_4"
+        ]
+    }
+}

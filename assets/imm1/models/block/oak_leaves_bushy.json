@@ -1,0 +1,7 @@
+{
+    "parent": "imm1:block/leaves_bushy",
+    "textures": {
+        "all": "blocks/leaves_oak",
+        "bushy": "blocks/leaves/foliage"
+    }
+}

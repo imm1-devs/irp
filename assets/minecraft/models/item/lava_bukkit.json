@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/lava_bucket",
+    "textures": {
+        "layer0": "minecraft:item/lava_bukkit"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/leather_helmet",
+  "textures": {
+    "layer1": "imm1:item/cloth/hat/dirty_overlay"
+  }
+}

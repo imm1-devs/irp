@@ -1,0 +1,32 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "1": "imm1:item/weapon/lightning_stick",
+        "layer0": "imm1:item/weapon/lightning_stick"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [0, 90, 45],
+            "translation": [0, 5, 1.5],
+            "scale": [1.25, 1.25, 1.25]},
+        "thirdperson_lefthand": {
+            "rotation": [0, 90, -45],
+            "translation": [0, 5, 1.5],
+            "scale": [1.25, 1.25, 1.25]
+        },
+        "firstperson_righthand": {
+            "rotation": [0, -90, 20],
+            "translation": [0, 0.75, -1.5],
+            "scale": [1.25, 1.25, 1.25]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 90, -20],
+            "translation": [0, 0.75, -1.5],
+            "scale": [1.25, 1.25, 1.25]
+        },
+        "ground": {
+            "translation": [0, 7.5, 0],
+            "scale": [1.25, 1.25, 1.25]
+        }
+    }
+}

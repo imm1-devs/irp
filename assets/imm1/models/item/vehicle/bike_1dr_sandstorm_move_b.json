@@ -1,0 +1,9 @@
+{
+	"parent": "imm1:item/vehicle/bike_1dr_sandstorm",
+	"textures": {
+		"0": "imm1:item/vehicle/bike_1d_sandstorm",
+		"1": "imm1:item/vehicle/paintable_surface",
+		"2": "imm1:item/vehicle/wheel_bike_spin_b",
+		"particle": "imm1:item/vehicle/bike_1d_sandstorm"
+	}
+}

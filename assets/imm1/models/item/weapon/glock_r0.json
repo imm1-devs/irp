@@ -1,0 +1,36 @@
+{
+	"parent": "imm1:item/weapon/glock",
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.425, 0.425, 0.425]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.425, 0.425, 0.425]
+		},
+		"firstperson_righthand": {
+			"rotation": [20, 6.375, 5],
+			"translation": [-4.75, 1, -1.5],
+			"scale": [0.8, 0.8, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [20, 6.375, 5],
+			"translation": [-4.75, 1, -1.5],
+			"scale": [0.8, 0.8, 0.5]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.5, 0.5, 0]
+		},
+		"head": {
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0.75, 0, -0.75]
+		}
+	}
+}

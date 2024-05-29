@@ -1,0 +1,6 @@
+{
+    "parent": "imm1:item/weapon/baseball",
+    "overrides": [
+        {"predicate": {"custom_model_data": 101}, "model": "imm1:item/weapon/nightstick"}
+    ]
+}
