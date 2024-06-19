@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/barrier"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1101}, "model": "imm1:item/prop/board_wiscas_agency"}
+    ]
+}
