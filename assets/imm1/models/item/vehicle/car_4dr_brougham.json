@@ -5,6 +5,7 @@
 		"1": "imm1:item/vehicle/wheel_lowrider",
 		"2": "imm1:item/vehicle/paintable_surface",
 		"3": "imm1:item/vehicle/steering_wheel_lowrider",
+		"4": "imm1:item/vehicle/tint",
 		"particle": "imm1:item/vehicle/steering_wheel_lowrider"
 	},
 	"elements": [
@@ -2487,6 +2488,15 @@
 			}
 		},
 		{
+			"name": "tint",
+			"from": [0, 7.14961, -0.15873],
+			"to": [16, 11.14961, 0.09127],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8.22296, 8.40832]},
+			"faces": {
+				"north": {"uv": [0, 8, 4, 12], "texture": "#4"}
+			}
+		},
+		{
 			"from": [-2.48036, 11.47149, 1.90119],
 			"to": [-1.26536, 12.12149, 2.15119],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8, 7.76102, 8.21698]},
@@ -2987,7 +2997,7 @@
 					"name": "wind",
 					"origin": [10, 16, -0.5],
 					"color": 0,
-					"children": [171, 172, 173, 174, 175, 176]
+					"children": [171, 172, 173, 174, 175, 176, 177]
 				},
 				{
 					"name": "mirrors",
@@ -2998,17 +3008,16 @@
 							"name": "mirror",
 							"origin": [-0.87214, 11.87554, 1.77619],
 							"color": 0,
-							"children": [177, 178]
+							"children": [178, 179]
 						},
 						{
 							"name": "mirror",
 							"origin": [-0.87214, 11.87554, 1.77619],
 							"color": 0,
-							"children": [179, 180]
+							"children": [180, 181]
 						}
 					]
 				},
-				181,
 				182,
 				183,
 				184,
@@ -3018,7 +3027,8 @@
 				188,
 				189,
 				190,
-				191
+				191,
+				192
 			]
 		}
 	]

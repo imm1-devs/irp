@@ -23,7 +23,19 @@ out vec4 fragColor;
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
     int alpha = int(round(textureLod(Sampler0, texCoord0, 0.0).a * 255.0));
-    color = make_emissive(color, lightColor, faceLightColor, alpha);
-    if (color.a < 0.1) discard;
+
+    if (color.a < 0.1) {
+        if (color.a == 0.003921568627451 && color.g > color.r && color.g > color.b) {
+            color.a = 1.0; // it's a snow ball
+        } else {
+            discard; // it's fully transparent
+        }
+    }
+
+    // Windshields should not be emissive
+    if (color.r != 0.0 && color.g != 0.0 && color.b != 0.0) {
+        color = make_emissive(color, lightColor, faceLightColor, alpha);
+    }
+
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }
