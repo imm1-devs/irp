@@ -1,0 +1,39 @@
+{
+	"parent": "qa:item/weapon/m249_f",
+	"textures": {
+		"19": "imm1:item/blank",
+		"20": "imm1:item/blank"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.75, -2.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0.75, -2.5]
+		},
+		"firstperson_righthand": {
+			"translation": [-4, 4, 2.5],
+			"scale": [1, 1, 0.6]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4, 4, 2.5],
+			"scale": [1, 1, 0.6]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [90, -45, 90],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, 14.5, -4],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 0, -2.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}

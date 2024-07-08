@@ -32,10 +32,6 @@ void main() {
         }
     }
 
-    // Windshields should not be emissive
-    if (color.r != 0.0 && color.g != 0.0 && color.b != 0.0) {
-        color = make_emissive(color, lightColor, faceLightColor, alpha);
-    }
-
+    color = make_emissive(color, lightColor, faceLightColor, alpha);
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }

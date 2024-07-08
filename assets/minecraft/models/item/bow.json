@@ -65,6 +65,8 @@
         {"predicate": {"custom_model_data": 342},				"model": "imm1:item/weapon/aku"},
         {"predicate": {"custom_model_data": 342, "pulling": 1},	"model": "imm1:item/weapon/aku_f"},
         {"predicate": {"custom_model_data": 343},				"model": "imm1:item/weapon/m4a1"},
-        {"predicate": {"custom_model_data": 343, "pulling": 1},	"model": "imm1:item/weapon/m4a1_f"}
+        {"predicate": {"custom_model_data": 343, "pulling": 1},	"model": "imm1:item/weapon/m4a1_f"},
+        {"predicate": {"custom_model_data": 344},				"model": "qa:item/weapon/m249"},
+        {"predicate": {"custom_model_data": 344, "pulling": 1},	"model": "qa:item/weapon/m249_f"}
     ]
 }
