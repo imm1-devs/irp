@@ -12,9 +12,9 @@ void main() {
         discard;
     }
 
-    if (color.r == color.g && color.g == color.b && color.b == 1.0) {
-        discard; // no item slot highlighting
-    }
+//  if (color.r == color.g && color.g == color.b && color.b == 1.0) {
+//      discard; // no item slot highlighting
+//  }
 
     fragColor = color * ColorModulator;
 }
