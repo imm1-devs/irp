@@ -6,6 +6,6 @@
     "overrides": [
         {"predicate": {"custom_model_data": 2101}, "model": "imm1:item/food/soda/can_empty_sprite"},
         {"predicate": {"custom_model_data": 2102}, "model": "imm1:item/food/soda/can_empty_cola"},
-        {"predicate": {"custom_model_data": 2201}, "model": "imm1:item/food/drug/syrup_empty"}
+        {"predicate": {"custom_model_data": 2201}, "model": "imm1:item/food/potion/syrup_empty"}
     ]
 }

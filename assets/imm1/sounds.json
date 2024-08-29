@@ -6,6 +6,14 @@
             "imm1:impact/glass_3"
         ]
     },
+    "impact.vehicle": {
+        "sounds":[
+            "imm1:impact/vehicle_1",
+            "imm1:impact/vehicle_2",
+            "imm1:impact/vehicle_3",
+            "imm1:impact/vehicle_4"
+        ]
+    },
     "loop.ambient_mine_29": {
         "sounds":["imm1:loop/ambient_mine_29"]
     },
