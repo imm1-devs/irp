@@ -2,9 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [4, 4],
 	"textures": {
-		"0": "imm1:item/food/drug/blunt/blunt_base",
-		"1": "imm1:item/food/drug/blunt/blunt_ashes",
-		"particle": "imm1:item/food/drug/blunt/blunt_base"
+		"0": "imm1:item/food/potion/cigar/base",
+		"1": "imm1:item/food/potion/cigar/ashes"
 	},
 	"elements": [
 		{

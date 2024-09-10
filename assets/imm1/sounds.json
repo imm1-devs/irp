@@ -119,6 +119,18 @@
     "weapon.fire.mp40": {
         "sounds":["imm1:weapon/fire/mp40"]
     },
+    "weapon.fire.mp5": {
+        "sounds":[
+            "imm1:weapon/fire/eardeer_1",
+            "imm1:weapon/fire/eardeer_2",
+            "imm1:weapon/fire/eardeer_3",
+            "imm1:weapon/fire/eardeer_4",
+            "imm1:weapon/fire/eardeer_5"
+        ]
+    },
+    "weapon.fire.galil": {
+        "sounds":["imm1:weapon/fire/galil"]
+    },
     "weapon.fire.gauge": {
         "sounds":["imm1:weapon/fire/gauge"]
     },

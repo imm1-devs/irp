@@ -21,6 +21,7 @@
         {"predicate": {"custom_model_data": 12032}, "model": "imm1:item/vehicle/car_4dr_brougham_move_b"},
         {"predicate": {"custom_model_data": 12040}, "model": "imm1:item/vehicle/car_4dr_bmw326"},
         {"predicate": {"custom_model_data": 13010}, "model": "imm1:item/vehicle/heli_4dr_police"},
+        {"predicate": {"custom_model_data": 13020}, "model": "imm1:item/vehicle/heli_2dr_sioux"},
         {"predicate": {"custom_model_data": 14010}, "model": "imm1:item/vehicle/bike_1dr_sandstorm"},
         {"predicate": {"custom_model_data": 14011}, "model": "imm1:item/vehicle/bike_1dr_sandstorm_move_f"},
         {"predicate": {"custom_model_data": 14012}, "model": "imm1:item/vehicle/bike_1dr_sandstorm_move_b"}

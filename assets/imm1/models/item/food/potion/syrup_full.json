@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [512, 512],
 	"textures": {
-		"0": "imm1:item/food/drug/syrup/syrup_wrapper",
-		"1": "imm1:item/food/drug/syrup/syrup_cap",
-		"2": "imm1:item/food/drug/syrup/syrup_shoulder",
+		"0": "imm1:item/food/potion/syrup/syrup_wrapper",
+		"1": "imm1:item/food/potion/syrup/syrup_cap",
+		"2": "imm1:item/food/potion/syrup/syrup_shoulder",
 		"3": "imm1:item/food/soda/soda_can_cover_open"
 	},
 	"elements": [

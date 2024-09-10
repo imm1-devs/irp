@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "imm1:item/misc/chopper_rotor",
-		"3": "imm1:item/misc/chopper_sr_parts",
-		"particle": "imm1:item/misc/chopper_sr_parts"
+		"1": "imm1:item/vehicle/chopper_rotor",
+		"3": "imm1:item/vehicle/chopper_sr_parts",
+		"particle": "imm1:item/vehicle/chopper_sr_parts"
 	},
 	"elements": [
 		{
@@ -13545,8 +13545,8 @@
 		},
 		"gui": {
 			"rotation": [15, 165, 0],
-			"translation": [0.5, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
+			"translation": [0, 1, 0],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"head": {
 			"translation": [0, 14.25, 5]

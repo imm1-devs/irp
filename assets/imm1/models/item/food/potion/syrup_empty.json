@@ -1,5 +1,5 @@
 {
-	"parent": "imm1:item/food/drug/syrup_full",
+	"parent": "imm1:item/food/potion/syrup_full",
 	"textures": {
 		"1": "imm1:item/blank"
 	}
