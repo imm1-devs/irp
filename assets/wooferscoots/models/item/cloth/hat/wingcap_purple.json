@@ -1,0 +1,8 @@
+{
+	"parent": "wooferscoots:item/cloth/hat/wingcap",
+	"textures": {
+		"1": "wooferscoots:item/cloth/hat/wingcap/purple/hat",
+		"2": "wooferscoots:item/cloth/hat/wingcap/purple/pole",
+		"3": "wooferscoots:item/cloth/hat/wingcap/purple/bill"
+	}
+}
