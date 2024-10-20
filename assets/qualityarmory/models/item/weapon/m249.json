@@ -1,8 +1,8 @@
 {
-	"parent": "qa:item/weapon/mp5a4_f",
+	"parent": "qualityarmory:item/weapon/m249_f",
 	"textures": {
-		"10": "imm1:item/blank",
-		"11": "imm1:item/blank"
+		"19": "imm1:item/blank",
+		"20": "imm1:item/blank"
 	},
 	"display": {
 		"thirdperson_righthand": {

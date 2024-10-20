@@ -1,9 +1,25 @@
 {
     "parent": "minecraft:block/carved_pumpkin",
     "overrides": [
-        {"predicate": {"custom_model_data": 1001}, "model": "imm1:item/cloth/hat/hat_tophat"},
-        {"predicate": {"custom_model_data": 1101}, "model": "imm1:item/cloth/hat/cap_sanfalse"},
-        {"predicate": {"custom_model_data": 2002}, "model": "imm1:item/misc/rajabu"},
-        {"predicate": {"custom_model_data": 2003}, "model": "imm1:item/misc/rajabu_corpse"}
+        {"predicate": {"custom_model_data": 11001}, "model": "imm1:item/cloth/hat/hat_tophat"},
+        {"predicate": {"custom_model_data": 11002}, "model": "imm1:item/cloth/hat/cap_sanfalse"},
+        {"predicate": {"custom_model_data": 11003}, "model": "wooferscoots:item/cloth/hat/bag"},
+        {"predicate": {"custom_model_data": 11004}, "model": "wooferscoots:item/cloth/hat/bunny"},
+        {"predicate": {"custom_model_data": 11005}, "model": "wooferscoots:item/cloth/hat/catin"},
+        {"predicate": {"custom_model_data": 11006}, "model": "wooferscoots:item/cloth/hat/farmer"},
+        {"predicate": {"custom_model_data": 11007}, "model": "wooferscoots:item/cloth/hat/flower"},
+        {"predicate": {"custom_model_data": 11008}, "model": "wooferscoots:item/cloth/hat/fryingpan"},
+        {"predicate": {"custom_model_data": 11009}, "model": "wooferscoots:item/cloth/hat/hard"},
+        {"predicate": {"custom_model_data": 11010}, "model": "wooferscoots:item/cloth/hat/jolly"},
+        {"predicate": {"custom_model_data": 11011}, "model": "wooferscoots:item/cloth/hat/leprechaun"},
+        {"predicate": {"custom_model_data": 11012}, "model": "wooferscoots:item/cloth/hat/plunger"},
+        {"predicate": {"custom_model_data": 11013}, "model": "wooferscoots:item/cloth/hat/propellerhat2"},
+        {"predicate": {"custom_model_data": 11014}, "model": "wooferscoots:item/cloth/hat/techno"},
+        {"predicate": {"custom_model_data": 11015}, "model": "wooferscoots:item/cloth/hat/unicorn"},
+        {"predicate": {"custom_model_data": 11016}, "model": "wooferscoots:item/cloth/hat/ushanka"},
+        {"predicate": {"custom_model_data": 11017}, "model": "wooferscoots:item/cloth/hat/valve"},
+        {"predicate": {"custom_model_data": 11018}, "model": "wooferscoots:item/cloth/hat/wingcap_purple"},
+        {"predicate": {"custom_model_data": 21001}, "model": "imm1:item/misc/rajabu"},
+        {"predicate": {"custom_model_data": 21002}, "model": "imm1:item/misc/rajabu_corpse"}
     ]
 }

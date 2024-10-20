@@ -1,18 +1,18 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "qa:item/weapon/aa12_drum",
-		"2": "qa:item/weapon/aa12_grip",
-		"3": "qa:item/weapon/aa12_metal",
-		"4": "qa:item/weapon/aa12_outside_darker",
-		"5": "qa:item/weapon/aa12_outside",
-		"6": "qa:item/weapon/aa12_shoulder",
+		"1": "qualityarmory:item/weapon/aa12_drum",
+		"2": "qualityarmory:item/weapon/aa12_grip",
+		"3": "qualityarmory:item/weapon/aa12_metal",
+		"4": "qualityarmory:item/weapon/aa12_outside_darker",
+		"5": "qualityarmory:item/weapon/aa12_outside",
+		"6": "qualityarmory:item/weapon/aa12_shoulder",
 		"10": "imm1:item/weapon/ak_3d_muzz_back",
 		"11": "imm1:item/weapon/ak_3d_muzz_side",
-		"12": "qa:item/weapon/ak47_black_metal",
-		"13": "qa:item/weapon/ak47_black",
-		"14": "qa:item/weapon/ak47_light_black_metal",
-		"15": "qa:item/weapon/ak47_light_metal",
+		"12": "qualityarmory:item/weapon/ak47_black_metal",
+		"13": "qualityarmory:item/weapon/ak47_black",
+		"14": "qualityarmory:item/weapon/ak47_light_black_metal",
+		"15": "qualityarmory:item/weapon/ak47_light_metal",
 		"particle": "imm1:item/weapon/ak_3d_muzz_back"
 	},
 	"elements": [

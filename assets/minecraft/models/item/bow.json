@@ -56,8 +56,8 @@
         {"predicate": {"custom_model_data": 322, "pulling": 1},	"model": "imm1:item/weapon/tec_f"},
         {"predicate": {"custom_model_data": 323},				"model": "imm1:item/weapon/uzi"},
         {"predicate": {"custom_model_data": 323, "pulling": 1},	"model": "imm1:item/weapon/uzi_f"},
-        {"predicate": {"custom_model_data": 324},				"model": "qa:item/weapon/mp5a4"},
-        {"predicate": {"custom_model_data": 324, "pulling": 1},	"model": "qa:item/weapon/mp5a4_f"},
+        {"predicate": {"custom_model_data": 324},				"model": "qualityarmory:item/weapon/mp5a4"},
+        {"predicate": {"custom_model_data": 324, "pulling": 1},	"model": "qualityarmory:item/weapon/mp5a4_f"},
         {"predicate": {"custom_model_data": 331},				"model": "imm1:item/weapon/spas"},
         {"predicate": {"custom_model_data": 331, "pulling": 1},	"model": "imm1:item/weapon/spas_r0"},
         {"predicate": {"custom_model_data": 331, "pull": 0.3},	"model": "imm1:item/weapon/spas_r1"},
@@ -68,7 +68,7 @@
         {"predicate": {"custom_model_data": 342, "pulling": 1},	"model": "imm1:item/weapon/aku_f"},
         {"predicate": {"custom_model_data": 343},				"model": "imm1:item/weapon/m4a1"},
         {"predicate": {"custom_model_data": 343, "pulling": 1},	"model": "imm1:item/weapon/m4a1_f"},
-        {"predicate": {"custom_model_data": 344},				"model": "qa:item/weapon/m249"},
-        {"predicate": {"custom_model_data": 344, "pulling": 1},	"model": "qa:item/weapon/m249_f"}
+        {"predicate": {"custom_model_data": 344},				"model": "qualityarmory:item/weapon/m249"},
+        {"predicate": {"custom_model_data": 344, "pulling": 1},	"model": "qualityarmory:item/weapon/m249_f"}
     ]
 }
