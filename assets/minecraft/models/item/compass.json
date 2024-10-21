@@ -1,12 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {"layer0": "item/compass_16"},
-	"display": {
-		"thirdperson_righthand": {"rotation": [0, 0, 0], "translation": [0.0, 0.0, 0.0], "scale": [0.0, 0.0, 0.0]},
-		"thirdperson_lefthand":  {"rotation": [0, 0, 0], "translation": [0.0, 0.0, 0.0], "scale": [0.0, 0.0, 0.0]},
-		"firstperson_righthand": {"rotation": [0, 0, 0], "translation": [0.0, 0.0, 0.0], "scale": [0.0, 0.0, 0.0]},
-		"firstperson_lefthand":  {"rotation": [0, 0, 0], "translation": [0.0, 0.0, 0.0], "scale": [0.0, 0.0, 0.0]}
-	},
 	"overrides": [
 		{"predicate": {"custom_model_data": 0, "angle": 0.000000}, "model": "item/compass"},
 		{"predicate": {"custom_model_data": 1, "angle": 0.000000}, "model": "imm1:item/compass/red_recovery/compass_16"},

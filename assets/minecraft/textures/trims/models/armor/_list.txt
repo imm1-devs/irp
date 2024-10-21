@@ -1,0 +1,2 @@
+coast			ice chain
+wayfinder		debug
