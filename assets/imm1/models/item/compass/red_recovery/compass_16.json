@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "imm1:item/compass/red_recovery/compass_16"
+  }
+}
