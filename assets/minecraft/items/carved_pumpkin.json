@@ -1,0 +1,29 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {"type": "model", "model": "minecraft:block/carved_pumpkin"},
+    "entries": [
+      {"threshold": 11001, "model": {"type": "model", "model": "imm1:item/cloth/hat/hat_tophat"}},
+      {"threshold": 11002, "model": {"type": "model", "model": "imm1:item/cloth/hat/cap_sanfalse"}},
+      {"threshold": 11003, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/bag"}},
+      {"threshold": 11004, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/bunny"}},
+      {"threshold": 11005, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/catin"}},
+      {"threshold": 11006, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/farmer"}},
+      {"threshold": 11007, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/flower"}},
+      {"threshold": 11008, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/fryingpan"}},
+      {"threshold": 11009, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/hard"}},
+      {"threshold": 11010, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/jolly"}},
+      {"threshold": 11011, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/leprechaun"}},
+      {"threshold": 11012, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/plunger"}},
+      {"threshold": 11013, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/propellerhat2"}},
+      {"threshold": 11014, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/techno"}},
+      {"threshold": 11015, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/unicorn"}},
+      {"threshold": 11016, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/ushanka"}},
+      {"threshold": 11017, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/valve"}},
+      {"threshold": 11018, "model": {"type": "model", "model": "wooferscoots:item/cloth/hat/wingcap_purple"}},
+      {"threshold": 21001, "model": {"type": "model", "model": "imm1:item/misc/rajabu"}},
+      {"threshold": 21002, "model": {"type": "model", "model": "imm1:item/misc/rajabu_corpse"}}
+    ]
+  }
+}

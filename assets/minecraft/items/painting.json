@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "entries": [
+      {"threshold": 0.9,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_law"}},
+	  {"threshold": 1.9,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_aim"}},
+	  {"threshold": 2.9,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_trigger"}},
+	  {"threshold": 3.9,    "model": {"type": "model", "model": "imm1:item/painting/lead_sfpd_enforcement"}},
+	  {"threshold": 4.9,    "model": {"type": "model", "model": "imm1:item/painting/lead_casino_slots"}},
+	  {"threshold": 1000.9, "model": {"type": "model", "model": "imm1:item/painting/animated/tv_static"}}
+    ],
+    "fallback": {"type": "model","model": "minecraft:item/painting"}
+  }
+}

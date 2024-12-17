@@ -4,6 +4,7 @@
         "layer0": "minecraft:item/paper"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "imm1:item/cash"}
+        {"predicate": {"custom_model_data": 10020}, "model": "imm1:item/misc/cash/cash_20"},
+        {"predicate": {"custom_model_data": 10100}, "model": "imm1:item/misc/cash/cash_100"}
     ]
 }

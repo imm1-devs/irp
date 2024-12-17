@@ -39,6 +39,7 @@
         {"type": "bitmap", "file": "imm1:bitmaps/arrow_2700.png", "ascent": 10, "height": 16, "chars": ["\uE053"]},
         {"type": "bitmap", "file": "imm1:bitmaps/arrow_2925.png", "ascent": 10, "height": 16, "chars": ["\uE054"]},
         {"type": "bitmap", "file": "imm1:bitmaps/arrow_3150.png", "ascent": 10, "height": 16, "chars": ["\uE055"]},
-        {"type": "bitmap", "file": "imm1:bitmaps/arrow_3375.png", "ascent": 10, "height": 16, "chars": ["\uE056"]}
+        {"type": "bitmap", "file": "imm1:bitmaps/arrow_3375.png", "ascent": 10, "height": 16, "chars": ["\uE056"]},
+        {"type": "bitmap", "file": "imm1:bitmaps/square.png", "ascent": 8, "height": 8, "chars": ["\u2B1B"]}
     ]
 }

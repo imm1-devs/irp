@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "entries": [
+      {"threshold": 0.9, "model": {"type": "model", "model": "imm1:item/particle/blood_splash"}},
+      {"threshold": 1.9, "model": {"type": "model", "model": "imm1:item/particle/spark"}}
+    ],
+    "fallback": {"type": "model","model": "minecraft:block/redstone_block"}
+  }
+}

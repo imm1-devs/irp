@@ -145,6 +145,18 @@
     "weapon.fire.glock": {
         "sounds":["imm1:weapon/fire/mikekoenig_2"]
     },
+    "weapon.fire.k6krukov": {
+        "sounds":[
+            "imm1:weapon/fire/k6krukov_1",
+            "imm1:weapon/fire/k6krukov_2",
+            "imm1:weapon/fire/k6krukov_3",
+            "imm1:weapon/fire/k6krukov_4",
+            "imm1:weapon/fire/k6krukov_5",
+            "imm1:weapon/fire/k6krukov_6",
+            "imm1:weapon/fire/k6krukov_7",
+            "imm1:weapon/fire/k6krukov_8"
+        ]
+    },
     "weapon.fire.magnum": {
         "sounds":["imm1:weapon/fire/magnum"]
     },
@@ -156,6 +168,14 @@
     },
     "weapon.fire.rifle": {
         "sounds":["imm1:weapon/fire/rifle"]
+    },
+    "weapon.fire.44shepherd": {
+        "sounds":[
+            "imm1:weapon/fire/44shepherd_1",
+            "imm1:weapon/fire/44shepherd_2",
+            "imm1:weapon/fire/44shepherd_3",
+            "imm1:weapon/fire/44shepherd_4"
+        ]
     },
     "weapon.fire.spas": {
         "sounds":["imm1:weapon/fire/spas"]
