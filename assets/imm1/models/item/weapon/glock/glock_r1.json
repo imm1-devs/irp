@@ -1,0 +1,7 @@
+{
+    "parent": "imm1:item/weapon/glock/glock_r0",
+	"textures": {
+		"1": "imm1:item/blank",
+		"2": "imm1:item/weapon/glock_3d/gauto_shutter"
+	}
+}

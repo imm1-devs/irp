@@ -88,6 +88,9 @@
     "misc.hawk": {
         "sounds":["imm1:misc/hawk"]
     },
+    "misc.lobotomy": {
+        "sounds":["imm1:misc/lobotomy"]
+    },
     "misc.police_siren": {
         "sounds":["imm1:misc/police_siren"]
     },
@@ -115,6 +118,9 @@
             "imm1:weapon/fire/fokku_tc_f2000_3",
             "imm1:weapon/fire/fokku_tc_f2000_4"
         ]
+    },
+    "weapon.fire.m200": {
+        "sounds":["imm1:weapon/fire/m200"]
     },
     "weapon.fire.mp40": {
         "sounds":["imm1:weapon/fire/mp40"]
@@ -165,6 +171,13 @@
     },
     "weapon.fire.morganpurkis": {
         "sounds":["imm1:weapon/fire/morganpurkis"]
+    },
+    "weapon.fire.mulisandou": {
+        "sounds":[
+            "imm1:weapon/fire/mulisandou_1",
+            "imm1:weapon/fire/mulisandou_2",
+            "imm1:weapon/fire/mulisandou_3"
+        ]
     },
     "weapon.fire.rifle": {
         "sounds":["imm1:weapon/fire/rifle"]
@@ -222,6 +235,12 @@
             "imm1:speech/maniac/2",
             "imm1:speech/maniac/3"
         ]
+    },
+    "ui.countdown": {
+        "sounds":["imm1:ui/countdown"]
+    },
+    "ui.dying": {
+        "sounds":["imm1:ui/dying"]
     },
     "ui.objective": {
         "sounds":["imm1:ui/objective"]

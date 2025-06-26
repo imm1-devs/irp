@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {"type": "model", "model": "minecraft:item/spyglass"},
+    "entries": [
+      {
+        "threshold": 351,
+        "model": {
+          "type": "model",
+          "model": "imm1:item/weapon/m200"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {"type": "bitmap", "file": "imm1:bitmaps/input_key_f.png", "ascent": 12, "height": 20, "chars": ["\uE021"]},
+    {"type": "bitmap", "file": "imm1:bitmaps/input_key_q.png", "ascent": 12, "height": 20, "chars": ["\uE022"]},
+    {"type": "bitmap", "file": "imm1:bitmaps/input_key_shift.png", "ascent": 18, "height": 30, "chars": ["\uE023"]},
+    {"type": "bitmap", "file": "imm1:bitmaps/input_key_spacebar.png", "ascent": 24, "height": 40, "chars": ["\uE024"]},
+    {"type": "bitmap", "file": "imm1:bitmaps/input_key_wasd.png", "ascent": 24, "height": 40, "chars": ["\uE025"]},
+    {"type": "bitmap", "file": "imm1:bitmaps/input_mouse_left.png", "ascent": 20, "height": 30, "chars": ["\uE031"]},
+    {"type": "bitmap", "file": "imm1:bitmaps/input_mouse_right.png", "ascent": 20, "height": 30, "chars": ["\uE032"]}
+  ]
+}

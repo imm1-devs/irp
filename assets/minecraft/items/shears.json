@@ -2,10 +2,7 @@
   "model": {
     "type": "range_dispatch",
     "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "minecraft:item/shears"
-    },
+    "fallback": {"type": "model", "model": "minecraft:item/shears"},
     "entries": [
       {
         "threshold": 1001,

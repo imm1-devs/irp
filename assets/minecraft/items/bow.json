@@ -39,12 +39,12 @@
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
-          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock"},
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/glock"},
           "on_true": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:use_duration",
             "scale": 0.05,
-            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock_r0"},
+            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/glock_r0"},
             "entries": []
           }
         }
@@ -99,13 +99,13 @@
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
-          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/gauto"},
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/gauto"},
           "on_true": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:use_duration",
             "scale": 0.05,
-            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/gauto"},
-            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/gauto_f"}}]
+            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/gauto"},
+            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/gauto_f1"}}]
           }
         }
       },
@@ -228,6 +228,21 @@
             "property": "minecraft:use_duration",
             "scale": 0.05,
             "fallback": {"type": "minecraft:model", "model": "qualityarmory:item/weapon/m249"},
+            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "qualityarmory:item/weapon/m249_f"}}]
+          }
+        }
+      },
+      {
+        "threshold": 351,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m200"},
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m200"},
             "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "qualityarmory:item/weapon/m249_f"}}]
           }
         }

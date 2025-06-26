@@ -5,7 +5,7 @@
     "layer1": "minecraft:item/leather_boots_overlay"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 1}, "model": "imm1:item/cloth/boots/boots_dirty"},
+    {"model": "imm1:item/cloth/boots/boots_dirty",           "predicate": {"custom_model_data": 1}},
     {"model": "minecraft:item/leather_boots_quartz_trim",    "predicate": {"trim_type": 0.1}},
     {"model": "minecraft:item/leather_boots_iron_trim",      "predicate": {"trim_type": 0.2}},
     {"model": "minecraft:item/leather_boots_netherite_trim", "predicate": {"trim_type": 0.3}},

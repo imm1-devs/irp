@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "imm1:font/blunt_row.png",
+      "ascent": 30,
+      "height": 30,
+      "width": 30,
+      "chars": [
+        "ＡＢＣＤＥＦ",
+        "ＧＨＩＪＫＬ",
+        "ＭＮＯＰＱＲ",
+        "ＳＴＵＶＷＸ",
+        "ＹＺ０１２３",
+        "４５６７８９"
+      ]
+    }
+  ]
+}
