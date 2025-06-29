@@ -1,76 +1,94 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/bow"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/bow"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ -80, 260, -40 ],
+      "translation": [ -1, -2, 2.5 ],
+      "scale": [ 0.9, 0.9, 0.9 ]
     },
-    "display": {
-        "thirdperson_righthand": {
-            "rotation": [ -80, 260, -40 ],
-            "translation": [ -1, -2, 2.5 ],
-            "scale": [ 0.9, 0.9, 0.9 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ -80, -280, 40 ],
-            "translation": [ -1, -2, 2.5 ],
-            "scale": [ 0.9, 0.9, 0.9 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 0, -90, 25 ],
-            "translation": [ 1.13, 3.2, 1.13],
-            "scale": [ 0.68, 0.68, 0.68 ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [ 0, 90, -25 ],
-            "translation": [ 1.13, 3.2, 1.13],
-            "scale": [ 0.68, 0.68, 0.68 ]
-        }
+    "thirdperson_lefthand": {
+      "rotation": [ -80, -280, 40 ],
+      "translation": [ -1, -2, 2.5 ],
+      "scale": [ 0.9, 0.9, 0.9 ]
     },
-    "overrides": [
-        {"predicate": {"custom_model_data": 0,   "pulling": 1}, "model": "item/bow_pulling_0"},
-        {"predicate": {"custom_model_data": 0,   "pull": 0.65}, "model": "item/bow_pulling_1"},
-        {"predicate": {"custom_model_data": 0,   "pull": 0.9},	"model": "item/bow_pulling_2"},
-        {"predicate": {"custom_model_data": 1},					"model": "item/air"},
-        {"predicate": {"custom_model_data": 311},				"model": "imm1:item/weapon/beretta"},
-        {"predicate": {"custom_model_data": 311, "pulling": 1},	"model": "imm1:item/weapon/beretta_r0"},
-        {"predicate": {"custom_model_data": 311, "pull": 0.3},	"model": "imm1:item/weapon/beretta_r1"},
-        {"predicate": {"custom_model_data": 311, "pull": 0.5},	"model": "imm1:item/weapon/beretta_r0"},
-        {"predicate": {"custom_model_data": 312},				"model": "imm1:item/weapon/glock/glock"},
-        {"predicate": {"custom_model_data": 312, "pulling": 1},	"model": "imm1:item/weapon/glock/glock_r0"},
-        {"predicate": {"custom_model_data": 312, "pull": 0.3},	"model": "imm1:item/weapon/glock/glock_r1"},
-        {"predicate": {"custom_model_data": 312, "pull": 0.5},	"model": "imm1:item/weapon/glock/glock_r0"},
-        {"predicate": {"custom_model_data": 313},				"model": "imm1:item/weapon/colt"},
-        {"predicate": {"custom_model_data": 313, "pulling": 1},	"model": "imm1:item/weapon/colt_r0"},
-        {"predicate": {"custom_model_data": 313, "pull": 0.3},	"model": "imm1:item/weapon/colt_r1"},
-        {"predicate": {"custom_model_data": 313, "pull": 0.5},	"model": "imm1:item/weapon/colt_r0"},
-        {"predicate": {"custom_model_data": 314},				"model": "imm1:item/weapon/deagle"},
-        {"predicate": {"custom_model_data": 314, "pulling": 1},	"model": "imm1:item/weapon/deagle_r0"},
-        {"predicate": {"custom_model_data": 314, "pull": 0.3},	"model": "imm1:item/weapon/deagle_r1"},
-        {"predicate": {"custom_model_data": 314, "pull": 0.5},	"model": "imm1:item/weapon/deagle_r0"},
-        {"predicate": {"custom_model_data": 315},				"model": "imm1:item/weapon/357"},
-        {"predicate": {"custom_model_data": 315, "pulling": 1},	"model": "imm1:item/weapon/357_r0"},
-        {"predicate": {"custom_model_data": 315, "pull": 0.3},	"model": "imm1:item/weapon/357_r1"},
-        {"predicate": {"custom_model_data": 315, "pull": 0.5},	"model": "imm1:item/weapon/357_r0"},
-        {"predicate": {"custom_model_data": 321},				"model": "imm1:item/weapon/glock/gauto"},
-        {"predicate": {"custom_model_data": 321, "pulling": 1},	"model": "imm1:item/weapon/glock/gauto_f1"},
-        {"predicate": {"custom_model_data": 322},				"model": "imm1:item/weapon/tec"},
-        {"predicate": {"custom_model_data": 322, "pulling": 1},	"model": "imm1:item/weapon/tec_f"},
-        {"predicate": {"custom_model_data": 323},				"model": "imm1:item/weapon/uzi"},
-        {"predicate": {"custom_model_data": 323, "pulling": 1},	"model": "imm1:item/weapon/uzi_f"},
-        {"predicate": {"custom_model_data": 324},				"model": "qualityarmory:item/weapon/mp5a4"},
-        {"predicate": {"custom_model_data": 324, "pulling": 1},	"model": "qualityarmory:item/weapon/mp5a4_f"},
-        {"predicate": {"custom_model_data": 331},				"model": "imm1:item/weapon/spas"},
-        {"predicate": {"custom_model_data": 331, "pulling": 1},	"model": "imm1:item/weapon/spas_r0"},
-        {"predicate": {"custom_model_data": 331, "pull": 0.3},	"model": "imm1:item/weapon/spas_r1"},
-        {"predicate": {"custom_model_data": 331, "pull": 0.5},	"model": "imm1:item/weapon/spas_r0"},
-        {"predicate": {"custom_model_data": 341},				"model": "imm1:item/weapon/ak"},
-        {"predicate": {"custom_model_data": 341, "pulling": 1},	"model": "imm1:item/weapon/ak_f"},
-        {"predicate": {"custom_model_data": 342},				"model": "imm1:item/weapon/aku"},
-        {"predicate": {"custom_model_data": 342, "pulling": 1},	"model": "imm1:item/weapon/aku_f"},
-        {"predicate": {"custom_model_data": 343},				"model": "imm1:item/weapon/m4a1"},
-        {"predicate": {"custom_model_data": 343, "pulling": 1},	"model": "imm1:item/weapon/m4a1_f"},
-        {"predicate": {"custom_model_data": 344},				"model": "qualityarmory:item/weapon/m249"},
-        {"predicate": {"custom_model_data": 344, "pulling": 1},	"model": "qualityarmory:item/weapon/m249_f"},
-        {"predicate": {"custom_model_data": 351},				"model": "imm1:item/weapon/m200"},
-        {"predicate": {"custom_model_data": 351, "pulling": 1},	"model": "qualityarmory:item/weapon/m249_f"}
-    ]
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 25 ],
+      "translation": [ 1.13, 3.2, 1.13],
+      "scale": [ 0.68, 0.68, 0.68 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 90, -25 ],
+      "translation": [ 1.13, 3.2, 1.13],
+      "scale": [ 0.68, 0.68, 0.68 ]
+    }
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 0,       "pulling": 1}, "model": "item/bow_pulling_0"},
+    {"predicate": {"custom_model_data": 0,       "pull": 0.65}, "model": "item/bow_pulling_1"},
+    {"predicate": {"custom_model_data": 0,       "pull": 0.9},  "model": "item/bow_pulling_2"},
+    {"predicate": {"custom_model_data": 1},                     "model": "item/air"},
+    {"predicate": {"custom_model_data": 311000},                "model": "imm1:item/weapon/beretta"},
+    {"predicate": {"custom_model_data": 311000,  "pulling": 1}, "model": "imm1:item/weapon/beretta_r0"},
+    {"predicate": {"custom_model_data": 311000,  "pull": 0.3},  "model": "imm1:item/weapon/beretta_r1"},
+    {"predicate": {"custom_model_data": 311000,  "pull": 0.5},  "model": "imm1:item/weapon/beretta_r0"},
+    {"predicate": {"custom_model_data": 312000},                "model": "imm1:item/weapon/glock/base_0"},
+    {"predicate": {"custom_model_data": 312000,  "pulling": 1}, "model": "imm1:item/weapon/glock/base_1"},
+    {"predicate": {"custom_model_data": 312001},                "model": "imm1:item/weapon/glock/mod_m1_0"},
+    {"predicate": {"custom_model_data": 312001,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m1_1"},
+    {"predicate": {"custom_model_data": 312002},                "model": "imm1:item/weapon/glock/mod_m2_0"},
+    {"predicate": {"custom_model_data": 312002,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m2_1"},
+    {"predicate": {"custom_model_data": 312004},                "model": "imm1:item/weapon/glock/mod_rd1_0"},
+    {"predicate": {"custom_model_data": 312004,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_rd1_1"},
+    {"predicate": {"custom_model_data": 312005},                "model": "imm1:item/weapon/glock/mod_m1_rd1_0"},
+    {"predicate": {"custom_model_data": 312005,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m1_rd1_1"},
+    {"predicate": {"custom_model_data": 312006},                "model": "imm1:item/weapon/glock/mod_m2_rd1_0"},
+    {"predicate": {"custom_model_data": 312006,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m2_rd1_1"},
+    {"predicate": {"custom_model_data": 312016},                "model": "imm1:item/weapon/glock/mod_s1_0"},
+    {"predicate": {"custom_model_data": 312016,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_s1_1"},
+    {"predicate": {"custom_model_data": 312017},                "model": "imm1:item/weapon/glock/mod_m1_s1_0"},
+    {"predicate": {"custom_model_data": 312017,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m1_s1_1"},
+    {"predicate": {"custom_model_data": 312018},                "model": "imm1:item/weapon/glock/mod_m2_s1_0"},
+    {"predicate": {"custom_model_data": 312018,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m2_s1_1"},
+    {"predicate": {"custom_model_data": 312020},                "model": "imm1:item/weapon/glock/mod_rd1_s1_0"},
+    {"predicate": {"custom_model_data": 312020,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_rd1_s1_1"},
+    {"predicate": {"custom_model_data": 312021},                "model": "imm1:item/weapon/glock/mod_m1_rd1_s1_0"},
+    {"predicate": {"custom_model_data": 312021,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m1_rd1_s1_1"},
+    {"predicate": {"custom_model_data": 312022},                "model": "imm1:item/weapon/glock/mod_m2_rd1_s1_0"},
+    {"predicate": {"custom_model_data": 312022,  "pulling": 1}, "model": "imm1:item/weapon/glock/mod_m2_rd1_s1_1"},
+    {"predicate": {"custom_model_data": 313000},                "model": "imm1:item/weapon/colt"},
+    {"predicate": {"custom_model_data": 313000,  "pulling": 1}, "model": "imm1:item/weapon/colt_r0"},
+    {"predicate": {"custom_model_data": 313000,  "pull": 0.3},  "model": "imm1:item/weapon/colt_r1"},
+    {"predicate": {"custom_model_data": 313000,  "pull": 0.5},  "model": "imm1:item/weapon/colt_r0"},
+    {"predicate": {"custom_model_data": 314000},                "model": "imm1:item/weapon/deagle"},
+    {"predicate": {"custom_model_data": 314000,  "pulling": 1}, "model": "imm1:item/weapon/deagle_r0"},
+    {"predicate": {"custom_model_data": 314000,  "pull": 0.3},  "model": "imm1:item/weapon/deagle_r1"},
+    {"predicate": {"custom_model_data": 314000,  "pull": 0.5},  "model": "imm1:item/weapon/deagle_r0"},
+    {"predicate": {"custom_model_data": 315000},                "model": "imm1:item/weapon/357"},
+    {"predicate": {"custom_model_data": 315000,  "pulling": 1}, "model": "imm1:item/weapon/357_r0"},
+    {"predicate": {"custom_model_data": 315000,  "pull": 0.3},  "model": "imm1:item/weapon/357_r1"},
+    {"predicate": {"custom_model_data": 315000,  "pull": 0.5},  "model": "imm1:item/weapon/357_r0"},
+    {"predicate": {"custom_model_data": 322000},                "model": "imm1:item/weapon/tec"},
+    {"predicate": {"custom_model_data": 322000,  "pulling": 1}, "model": "imm1:item/weapon/tec_f"},
+    {"predicate": {"custom_model_data": 323000},                "model": "imm1:item/weapon/uzi"},
+    {"predicate": {"custom_model_data": 323000,  "pulling": 1}, "model": "imm1:item/weapon/uzi_f"},
+    {"predicate": {"custom_model_data": 324000},                "model": "qualityarmory:item/weapon/mp5a4"},
+    {"predicate": {"custom_model_data": 324000,  "pulling": 1}, "model": "qualityarmory:item/weapon/mp5a4_f"},
+    {"predicate": {"custom_model_data": 331000},                "model": "imm1:item/weapon/spas"},
+    {"predicate": {"custom_model_data": 331000,  "pulling": 1}, "model": "imm1:item/weapon/spas_r0"},
+    {"predicate": {"custom_model_data": 331000,  "pull": 0.3},  "model": "imm1:item/weapon/spas_r1"},
+    {"predicate": {"custom_model_data": 331000,  "pull": 0.5},  "model": "imm1:item/weapon/spas_r0"},
+    {"predicate": {"custom_model_data": 341000},                "model": "imm1:item/weapon/ak"},
+    {"predicate": {"custom_model_data": 341000,  "pulling": 1}, "model": "imm1:item/weapon/ak_f"},
+    {"predicate": {"custom_model_data": 342000},                "model": "imm1:item/weapon/aku"},
+    {"predicate": {"custom_model_data": 342000,  "pulling": 1}, "model": "imm1:item/weapon/aku_f"},
+    {"predicate": {"custom_model_data": 343000},                "model": "imm1:item/weapon/m4a1"},
+    {"predicate": {"custom_model_data": 343000,  "pulling": 1}, "model": "imm1:item/weapon/m4a1_f"},
+    {"predicate": {"custom_model_data": 344000},                "model": "qualityarmory:item/weapon/m249"},
+    {"predicate": {"custom_model_data": 344000,  "pulling": 1}, "model": "qualityarmory:item/weapon/m249_f"},
+    {"predicate": {"custom_model_data": 351000},                "model": "imm1:item/weapon/m200"},
+    {"predicate": {"custom_model_data": 351000,  "pulling": 1}, "model": "qualityarmory:item/weapon/m249_f"}
+  ]
 }

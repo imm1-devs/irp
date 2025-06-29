@@ -1,9 +1,5 @@
 {
-	"parent": "imm1:item/weapon/glock/glock",
-	"textures": {
-		"1": "imm1:item/weapon/glock_3d/gauto_shutter",
-		"2": "imm1:item/blank"
-	},
+	"parent": "imm1:item/weapon/glock/base_0",
 	"display": {
 		"thirdperson_righthand": {
 			"scale": [0.425, 0.425, 0.425]

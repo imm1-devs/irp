@@ -1,0 +1,13 @@
+{
+    "parent": "imm1:item/weapon/glock/base_1",
+	"textures": {
+		"1": "imm1:item/weapon/glock_3d/gauto_shutter_f0",
+		"2": "imm1:item/weapon/glock_3d/gauto_shutter_f1",
+		"3": "imm1:item/weapon/gauto_3d_muzz_back",
+		"4": "imm1:item/weapon/gauto_3d_muzz_side",
+		"5": "imm1:item/weapon/glock_3d/switch_f0",
+		"6": "imm1:item/weapon/glock_3d/switch_f1",
+		"7": "imm1:item/weapon/glock_3d/gauto_mag_clip",
+		"9": "imm1:item/weapon/glock_3d/gauto_reddot"
+	}
+}

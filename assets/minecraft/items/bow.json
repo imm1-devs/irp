@@ -20,7 +20,7 @@
         }
       },
       {
-        "threshold": 311,
+        "threshold": 311000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -35,22 +35,103 @@
         }
       },
       {
-        "threshold": 312,
+        "threshold": 312000,
         "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:using_item",
-          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/glock"},
-          "on_true": {
-            "type": "minecraft:range_dispatch",
-            "property": "minecraft:use_duration",
-            "scale": 0.05,
-            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/glock_r0"},
-            "entries": []
-          }
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/base_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/base_1"}, "entries": []}
         }
       },
       {
-        "threshold": 313,
+        "threshold": 312001,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312002,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312004,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_rd1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_rd1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312005,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_rd1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_rd1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312006,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_rd1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_rd1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312016,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312017,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312018,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312020,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_rd1_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_rd1_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312021,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_rd1_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m1_rd1_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 312022,
+        "model": {
+          "type": "minecraft:condition", "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_rd1_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/mod_m2_rd1_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 313000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -65,7 +146,7 @@
         }
       },
       {
-        "threshold": 314,
+        "threshold": 314000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -80,7 +161,7 @@
         }
       },
       {
-        "threshold": 315,
+        "threshold": 315000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -95,22 +176,7 @@
         }
       },
       {
-        "threshold": 321,
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:using_item",
-          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/gauto"},
-          "on_true": {
-            "type": "minecraft:range_dispatch",
-            "property": "minecraft:use_duration",
-            "scale": 0.05,
-            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/gauto"},
-            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/glock/gauto_f1"}}]
-          }
-        }
-      },
-      {
-        "threshold": 322,
+        "threshold": 322000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -128,7 +194,7 @@
         }
       },
       {
-        "threshold": 323,
+        "threshold": 323000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -143,7 +209,7 @@
         }
       },
       {
-        "threshold": 324,
+        "threshold": 324000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -158,7 +224,7 @@
         }
       },
       {
-        "threshold": 331,
+        "threshold": 331000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -173,7 +239,7 @@
         }
       },
       {
-        "threshold": 341,
+        "threshold": 341000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -188,7 +254,7 @@
         }
       },
       {
-        "threshold": 342,
+        "threshold": 342000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -203,7 +269,7 @@
         }
       },
       {
-        "threshold": 343,
+        "threshold": 343000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -218,7 +284,7 @@
         }
       },
       {
-        "threshold": 344,
+        "threshold": 344000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -233,7 +299,7 @@
         }
       },
       {
-        "threshold": 351,
+        "threshold": 351000,
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",

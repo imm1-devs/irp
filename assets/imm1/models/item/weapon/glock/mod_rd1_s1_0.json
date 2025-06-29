@@ -1,0 +1,7 @@
+{
+    "parent": "imm1:item/weapon/glock/base_0",
+	"textures": {
+		"5": "imm1:item/weapon/glock_3d/switch",
+		"9": "imm1:item/weapon/glock_3d/gauto_reddot"
+	}
+}
