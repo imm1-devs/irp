@@ -4,7 +4,8 @@
     "property": "custom_model_data",
     "fallback": {"type": "model", "model": "imm1:item/weapon/baseball"},
     "entries": [
-      {"threshold": 101, "model": {"type": "model", "model": "imm1:item/weapon/nightstick"}}
+      {"threshold": 101, "model": {"type": "model", "model": "imm1:item/weapon/nightstick"}},
+      {"threshold": 201, "model": {"type": "model", "model": "imm1:item/weapon/slap"}}
     ]
   }
 }

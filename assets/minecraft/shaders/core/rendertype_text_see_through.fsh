@@ -10,8 +10,5 @@ in vec2 texCoord0;
 out vec4 fragColor;
 
 void main() {
-    if (fragColor.a == 0.0) {
-        discard; // no name tag
-    }
-    fragColor = vertexColor;
+    discard;
 }

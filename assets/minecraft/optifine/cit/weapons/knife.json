@@ -1,1 +1,0 @@
-{"display":{"thirdperson_righthand":{"rotation":[0,-90,-40],"translation":[0,2.5,1]},"thirdperson_lefthand":{"rotation":[0,90,40],"translation":[0,2.5,1]},"firstperson_righthand":{"rotation":[0,-75,-20],"translation":[2.5,2,-4]},"firstperson_lefthand":{"rotation":[0,105,20],"translation":[2.5,2,-4]}},"parent":"item/handheld","textures":{"layer0":"weapons/knife"}}

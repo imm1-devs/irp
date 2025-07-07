@@ -148,12 +148,13 @@
   "weapon.fire.mp40": {
     "sounds":["imm1:weapon/fire/mp40"]
   },
-  "weapon.fire.mp5": {
+  "weapon.fire.eardeer": {
     "sounds":[
       "imm1:weapon/fire/eardeer_1",
       "imm1:weapon/fire/eardeer_2",
       "imm1:weapon/fire/eardeer_3",
-      "imm1:weapon/fire/eardeer_4"
+      "imm1:weapon/fire/eardeer_4",
+      "imm1:weapon/fire/eardeer_5"
     ]
   },
   "weapon.fire.galil": {
@@ -265,8 +266,14 @@
   "ui.dying": {
     "sounds":["imm1:ui/dying"]
   },
+  "ui.match.lose": {
+      "sounds": ["imm1:ui/match/lose"]
+  },
+  "ui.match.win": {
+      "sounds": ["imm1:ui/match/win"]
+  },
   "ui.objective": {
-    "sounds":["imm1:ui/objective"]
+      "sounds": ["imm1:ui/objective"]
   },
   "ui.pickup.money": {
     "sounds":[
