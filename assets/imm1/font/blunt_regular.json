@@ -3,9 +3,22 @@
     {
       "type": "bitmap",
       "file": "imm1:font/blunt_row.png",
-      "ascent": 30,
-      "height": 30,
-      "width": 30,
+      "ascent": 6,
+      "height": 8,
+      "chars": [
+        "ＡＢＣＤＥＦ",
+        "ＧＨＩＪＫＬ",
+        "ＭＮＯＰＱＲ",
+        "ＳＴＵＶＷＸ",
+        "ＹＺ０１２３",
+        "４５６７８９"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "imm1:font/blunt_row.png",
+      "ascent": 6,
+      "height": 8,
       "chars": [
         "ＡＢＣＤＥＦ",
         "ＧＨＩＪＫＬ",

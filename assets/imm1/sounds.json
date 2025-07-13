@@ -1,4 +1,20 @@
 {
+  "explosion.frag": {
+    "sounds":[
+      "imm1:explosion/frag_1",
+      "imm1:explosion/frag_2",
+      "imm1:explosion/frag_3",
+      "imm1:explosion/frag_4"
+    ]
+  },
+  "explosion.pipe": {
+    "sounds":[
+      "imm1:explosion/pipe_1",
+      "imm1:explosion/pipe_2",
+      "imm1:explosion/pipe_3",
+      "imm1:explosion/pipe_4"
+    ]
+  },
   "impact.frag": {
     "sounds":[
       "imm1:impact/frag_1",
