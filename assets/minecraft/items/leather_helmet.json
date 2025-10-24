@@ -4,14 +4,16 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "minecraft:item/leather_helmet"
+            "model": "minecraft:item/leather_helmet",
+            "tints": [{"type": "minecraft:dye", "default": -13083194}]
         },
         "entries": [
             {
                 "threshold": 1,
                 "model": {
                     "type": "model",
-                    "model": "imm1:item/cloth/hat/hat_dirty"
+                    "model": "imm1:item/cloth/hat/hat_dirty",
+                    "tints": [{"type": "minecraft:dye", "default": -13083194}]
                 }
             }
         ]

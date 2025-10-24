@@ -18,6 +18,7 @@
       {"threshold": 12031, "model": {"type": "model", "model": "imm1:item/vehicle/car_4dr_brougham_move_f",   "tints": [{"type": "minecraft:potion", "default": -13083194}]}},
       {"threshold": 12032, "model": {"type": "model", "model": "imm1:item/vehicle/car_4dr_brougham_move_b",   "tints": [{"type": "minecraft:potion", "default": -13083194}]}},
       {"threshold": 12040, "model": {"type": "model", "model": "imm1:item/vehicle/car_4dr_bmw326",            "tints": [{"type": "minecraft:potion", "default": -13083194}]}},
+      {"threshold": 12050, "model": {"type": "model", "model": "imm1:item/vehicle/car_1dr_kart",              "tints": [{"type": "minecraft:potion", "default": -13083194}]}},
       {"threshold": 13010, "model": {"type": "model", "model": "imm1:item/vehicle/heli_4dr_police"}},
       {"threshold": 13020, "model": {"type": "model", "model": "imm1:item/vehicle/heli_2dr_sioux",            "tints": [{"type": "minecraft:potion", "default": -13083194}]}},
       {"threshold": 14010, "model": {"type": "model", "model": "imm1:item/vehicle/bike_1dr_sandstorm",        "tints": [{"type": "minecraft:potion", "default": -13083194}]}},
