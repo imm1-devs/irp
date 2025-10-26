@@ -239,6 +239,15 @@
   "weapon.fire.xtr": {
     "sounds":["imm1:weapon/fire/xtr"]
   },
+  "weapon.fire.minigun.charge": {
+    "sounds":["imm1:weapon/fire/minigun/spinup"]
+  },
+  "weapon.fire.minigun.loop": {
+    "sounds":["imm1:weapon/fire/minigun/fireloop"]
+  },
+  "weapon.fire.minigun.tail": {
+    "sounds":["imm1:weapon/fire/minigun/spindown"]
+  },
   "weapon.reload.pistol": {
     "sounds":["imm1:weapon/reload/pistol"]
   },

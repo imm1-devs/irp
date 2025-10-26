@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.6",
+	"credit": "by Moisei for Minigun",
+	"texture_size": [4, 4],
+	"textures": {
+		"2": "imm1:item/weapon/minigun_3d/barrels_f",
+		"3": "imm1:item/weapon/ak_3d_muzz_back",
+		"4": "imm1:item/weapon/ak_3d_muzz_side"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -6, -9],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -6, -9],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"translation": [-2, 0, 0],
+			"scale": [1, 1, 0.4]
+		},
+		"firstperson_lefthand": {
+			"translation": [-2, 0, 0],
+			"scale": [1, 1, 0.4]
+		},
+		"ground": {
+			"translation": [0, 2, 0]
+		},
+		"gui": {
+			"rotation": [-74, 136, 62],
+			"translation": [1.25, 0.25, 0],
+			"scale": [0.67773, 0.67773, 0.67773]
+		},
+		"head": {
+			"translation": [0, -4.5, -3.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"rotation": [-94, -146, -115],
+			"translation": [-1.75, 0.25, -9.5],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}
