@@ -1,12 +1,13 @@
 {
 	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"muzz_back": "imm1:item/weapon/ak_3d_muzz_back",
 		"muzz_side": "imm1:item/weapon/ak_3d_muzz_side",
-		"particle": "imm1:item/weapon/m4a1_3d/xreskin_digi",
 		"skin": "imm1:item/weapon/m4a1_3d/xreskin_mw2",
 		"sights": "imm1:item/blank",
-		"collimator": "imm1:item/weapon/m4a1_3d/mod_collimator_mw2"
+		"collimator": "imm1:item/weapon/m4a1_3d/mod_collimator_mw2",
+		"particle": "imm1:item/weapon/m4a1_3d/xreskin_digi"
 	},
 	"elements": [
 		{
