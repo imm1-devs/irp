@@ -1,9 +1,0 @@
-{
-    "parent": "minecraft:item/handheld",
-    "textures": {
-        "layer0": "minecraft:item/diamond_sword"
-    },
-    "overrides": [
-        {"predicate": {"custom_model_data": 1001}, "model": "imm1:item/weapon/bayonet_gradient"}
-    ]
-}

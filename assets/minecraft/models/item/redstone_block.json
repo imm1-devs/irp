@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/redstone_block",
-    "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "imm1:item/particle/blood_splash"},
-        {"predicate": {"custom_model_data": 2}, "model": "imm1:item/particle/spark"}
-    ]
-}

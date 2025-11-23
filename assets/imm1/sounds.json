@@ -292,13 +292,16 @@
     "sounds":["imm1:ui/dying"]
   },
   "ui.match.lose": {
-      "sounds": ["imm1:ui/match/lose"]
+      "sounds":["imm1:ui/match/lose"]
   },
   "ui.match.win": {
-      "sounds": ["imm1:ui/match/win"]
+      "sounds":["imm1:ui/match/win"]
+  },
+  "ui.nextel": {
+      "sounds":["imm1:ui/nextel"]
   },
   "ui.objective": {
-      "sounds": ["imm1:ui/objective"]
+      "sounds":["imm1:ui/objective"]
   },
   "ui.pickup.money": {
     "sounds":[
@@ -311,6 +314,9 @@
   },
   "ui.prompt": {
     "sounds":["imm1:ui/prompt"]
+  },
+  "ui.sms": {
+    "sounds":["imm1:ui/sms"]
   },
   "vehicle.bike.honda_cbf_500_engine": {
     "sounds":["imm1:vehicle/bike/dycmaster_honda_cbf_500"]

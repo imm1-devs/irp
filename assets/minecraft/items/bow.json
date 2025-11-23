@@ -273,13 +273,13 @@
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
-          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1"},
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base"},
           "on_true": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:use_duration",
             "scale": 0.05,
-            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1"},
-            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1_f"}}]
+            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base"},
+            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_f"}}]
           }
         }
       },
@@ -310,6 +310,25 @@
             "scale": 0.05,
             "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m200"},
             "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "qualityarmory:item/weapon/m249_f"}}]
+          }
+        }
+      },
+      {
+        "threshold": 361000,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/minigun"},
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/minigun"},
+            "entries": [
+              {"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/minigun_c0"}},
+              {"threshold": 0.5, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/minigun_c1"}},
+              {"threshold": 1.5, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/minigun_f"}}
+            ]
           }
         }
       }

@@ -1,9 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "minecraft:item/cooked_beef"
-    },
-    "overrides": [
-        {"predicate": {"custom_model_data": 1001}, "model": "imm1:item/food/fast/burger_beef"}
-    ]
-}
