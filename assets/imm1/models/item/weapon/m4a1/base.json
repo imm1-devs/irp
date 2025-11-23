@@ -1,8 +1,8 @@
 {
 	"parent": "imm1:item/weapon/m4a1/base_f",
 	"textures": {
-		"8": "imm1:item/blank",
-		"9": "imm1:item/blank"
+		"muzz_back": "imm1:item/blank",
+		"muzz_side": "imm1:item/blank"
 	},
 	"display": {
 		"thirdperson_righthand": {

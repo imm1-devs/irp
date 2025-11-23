@@ -136,6 +136,9 @@
   "weapon.fire.1911": {
     "sounds":["imm1:weapon/fire/1911"]
   },
+  "weapon.fire.50_cal": {
+    "sounds":["imm1:weapon/fire/50_cal"]
+  },
   "weapon.fire.ak": {
     "sounds":["imm1:weapon/fire/ak"]
   },
@@ -205,6 +208,9 @@
   },
   "weapon.fire.magnum": {
     "sounds":["imm1:weapon/fire/magnum"]
+  },
+  "weapon.fire.m16": {
+    "sounds":["imm1:weapon/fire/m16_l4d"]
   },
   "weapon.fire.m4a1": {
     "sounds":["imm1:weapon/fire/superphat"]
