@@ -1,8 +1,10 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "imm1:item/misc/marker"
+		"0": "imm1:item/misc/marker",
+		"particle": "imm1:item/misc/marker"
 	},
 	"elements": [
 		{

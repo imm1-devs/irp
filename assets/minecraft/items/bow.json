@@ -273,14 +273,71 @@
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
-          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base"},
-          "on_true": {
-            "type": "minecraft:range_dispatch",
-            "property": "minecraft:use_duration",
-            "scale": 0.05,
-            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base"},
-            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_f"}}]
-          }
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 343001,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 343004,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_g1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_g1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 343005,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_g1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_g1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 343016,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 343017,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 343020,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_g1_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_g1_s1_1"}, "entries": []}
+        }
+      },
+      {
+        "threshold": 343021,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_g1_s1_0"},
+          "on_true": {"type": "minecraft:range_dispatch", "property": "minecraft:use_duration", "scale": 0.05, "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/m4a1/base_c1_g1_s1_1"}, "entries": []}
         }
       },
       {

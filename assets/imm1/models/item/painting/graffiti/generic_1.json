@@ -1,0 +1,6 @@
+{
+    "parent": "imm1:item/painting/graffiti/base",
+	"textures": {
+		"0": "imm1:item/painting/graffiti/generic_1"
+	}
+}

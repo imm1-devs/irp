@@ -1,0 +1,9 @@
+{
+	"parent": "imm1:item/weapon/m4a1/base_1",
+	"textures": {
+		"particle": "imm1:item/weapon/m4a1_3d/xreskin_mw2",
+		"skin": "imm1:item/weapon/m4a1_3d/xreskin_mw2",
+		"sights": "imm1:item/weapon/m4a1_3d/mod_sight_mw2",
+		"handguards": "imm1:item/weapon/m4a1_3d/mod_handguards_mw2"
+	}
+}

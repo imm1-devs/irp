@@ -4,12 +4,23 @@
     "property": "custom_model_data",
     "index": 0,
     "entries": [
-      {"threshold": 0.9,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_law"}},
-	  {"threshold": 1.9,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_aim"}},
-	  {"threshold": 2.9,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_trigger"}},
-	  {"threshold": 3.9,    "model": {"type": "model", "model": "imm1:item/painting/lead_sfpd_enforcement"}},
-	  {"threshold": 4.9,    "model": {"type": "model", "model": "imm1:item/painting/lead_casino_slots"}},
-	  {"threshold": 1000.9, "model": {"type": "model", "model": "imm1:item/painting/animated/tv_static"}}
+      {"threshold": 1,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_law"}},
+	  {"threshold": 2,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_aim"}},
+	  {"threshold": 3,    "model": {"type": "model", "model": "imm1:item/painting/wiscas_sfpd_trigger"}},
+	  {"threshold": 4,    "model": {"type": "model", "model": "imm1:item/painting/lead_sfpd_enforcement"}},
+	  {"threshold": 5,    "model": {"type": "model", "model": "imm1:item/painting/lead_casino_slots"}},
+	  {"threshold": 1001, "model": {"type": "model", "model": "imm1:item/painting/animated/tv_static"}},
+      {"threshold": 2001, "model": {"type": "model", "model": "imm1:item/painting/graffiti/generic_1"}},
+      {"threshold": 2002, "model": {"type": "model", "model": "imm1:item/painting/graffiti/generic_2"}},
+      {"threshold": 2011, "model": {"type": "model", "model": "imm1:item/painting/graffiti/rd_1"}},
+      {"threshold": 2012, "model": {"type": "model", "model": "imm1:item/painting/graffiti/rd_2"}},
+      {"threshold": 2021, "model": {"type": "model", "model": "imm1:item/painting/graffiti/pjx_1"}},
+      {"threshold": 2031, "model": {"type": "model", "model": "imm1:item/painting/graffiti/cq_1"}},
+      {"threshold": 2032, "model": {"type": "model", "model": "imm1:item/painting/graffiti/cq_2"}},
+      {"threshold": 2111, "model": {"type": "model", "model": "imm1:item/painting/graffiti/nsc_1"}},
+      {"threshold": 2112, "model": {"type": "model", "model": "imm1:item/painting/graffiti/nsc_2"}},
+      {"threshold": 2121, "model": {"type": "model", "model": "imm1:item/painting/graffiti/rdc_1"}},
+      {"threshold": 2122, "model": {"type": "model", "model": "imm1:item/painting/graffiti/rdc_2"}}
     ],
     "fallback": {"type": "model","model": "minecraft:item/painting"}
   }

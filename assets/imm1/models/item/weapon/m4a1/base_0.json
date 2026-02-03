@@ -1,5 +1,5 @@
 {
-	"parent": "imm1:item/weapon/m4a1/base_f",
+	"parent": "imm1:item/weapon/m4a1/base_1",
 	"textures": {
 		"muzz_back": "imm1:item/blank",
 		"muzz_side": "imm1:item/blank"
