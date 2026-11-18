@@ -213,13 +213,13 @@
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
-          "on_false": {"type": "minecraft:model", "model": "qualityarmory:item/weapon/mp5a4"},
+          "on_false": {"type": "minecraft:model", "model": "imm1:item/weapon/mp5/mp5a4"},
           "on_true": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:use_duration",
             "scale": 0.05,
-            "fallback": {"type": "minecraft:model", "model": "qualityarmory:item/weapon/mp5a4"},
-            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "qualityarmory:item/weapon/mp5a4_f"}}]
+            "fallback": {"type": "minecraft:model", "model": "imm1:item/weapon/mp5/mp5a4"},
+            "entries": [{"threshold": 0.0, "model": {"type": "minecraft:model", "model": "imm1:item/weapon/mp5/mp5a4_f"}}]
           }
         }
       },

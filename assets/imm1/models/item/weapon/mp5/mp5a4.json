@@ -1,5 +1,5 @@
 {
-	"parent": "qualityarmory:item/weapon/mp5a4_f",
+	"parent": "imm1:item/weapon/mp5/mp5a4_f",
 	"textures": {
 		"10": "imm1:item/blank",
 		"11": "imm1:item/blank"

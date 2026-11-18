@@ -3,7 +3,7 @@
 	"textures": {
 		"1": "imm1:item/weapon/gauto_3d_muzz_back",
 		"2": "imm1:item/weapon/gauto_3d_muzz_side",
-		"texture": "block/anvil"
+		"texture": "imm1:item/block/anvil"
 	},
 	"elements": [
 		{

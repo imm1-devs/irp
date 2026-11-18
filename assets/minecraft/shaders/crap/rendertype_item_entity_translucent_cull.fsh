@@ -24,6 +24,11 @@ vec4 calc_out(vec4 color) {
             FogColor);
 }
 
+vec4 normalize_xyz(vec4 v4) {
+    v4.xyz *= inversesqrt(dot(v4.xyz, v4.xyz));
+    return v4;
+}
+
 void main() {
     // VANILLA BEHAVIOR START
     vec4 color = texture(Sampler0, texCoord0);
@@ -45,6 +50,11 @@ void main() {
 //  }
 
     if (color.a < 1.0) {
+        // Multiply by tint, if colorable
+        if (color.r == color.g && color.g == color.b) {
+            color *= normalize_xyz(vertexColor);
+        }
+
         fragColor = color;
         return;
     }

@@ -1,0 +1,6 @@
+{
+	"parent": "imm1:item/misc/cash/cash_2000",
+	"textures": {
+		"0": "imm1:item/misc/cash/cash_10000"
+	}
+}

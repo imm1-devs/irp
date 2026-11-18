@@ -1,5 +1,5 @@
 {
-  "test.non_translated": "In English!",
-  "item.imm1.ice_pick": "Ice Pick",
-  "item.imm1.money_bundle": "Money Bundle"
+  "item.imm1.banknote": "Banknote",
+  "item.imm1.currency_strap": "Money Stack",
+  "item.imm1.ice_pick": "Ice Pick"
 }

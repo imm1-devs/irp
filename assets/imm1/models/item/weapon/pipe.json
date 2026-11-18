@@ -2,10 +2,10 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/green_terracotta",
-		"2": "block/yellow_terracotta",
-		"3": "block/light_gray_concrete",
-		"4": "block/gray_wool",
+		"0": "imm1:item/block/green_terracotta",
+		"2": "imm1:item/block/yellow_terracotta",
+		"3": "imm1:item/block/light_gray_concrete",
+		"4": "imm1:item/block/gray_wool",
 		"5": "imm1:item/weapon/pipe_fuzz",
 		"particle": "imm1:item/blank"
 	},

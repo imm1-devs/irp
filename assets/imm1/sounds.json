@@ -59,11 +59,17 @@
   "loop.birdscary": {
     "sounds":["imm1:loop/birdscary"]
   },
+  "loop.blast_your_ass": {
+    "sounds":["imm1:loop/blast_your_ass"]
+  },
   "loop.casino": {
     "sounds":["imm1:loop/casino"]
   },
   "loop.crickets": {
     "sounds":["imm1:loop/crickets"]
+  },
+  "loop.deep_east_oakland": {
+    "sounds":["imm1:loop/deep_east_oakland"]
   },
   "loop.die_nibba_die": {
     "sounds":["imm1:loop/die_nibba_die"]
@@ -74,11 +80,17 @@
   "loop.ebony_wood_stock": {
     "sounds":["imm1:loop/ebony_wood_stock"]
   },
+  "loop.gene_kauer": {
+    "sounds":["imm1:loop/gene_kauer"]
+  },
   "loop.grasshoppers": {
     "sounds":["imm1:loop/grasshoppers"]
   },
   "loop.graveyard_47": {
     "sounds":["imm1:loop/graveyard_47"]
+  },
+  "loop.im_burnt": {
+    "sounds":["imm1:loop/im_burnt"]
   },
   "loop.is_that_the_door": {
     "sounds":["imm1:loop/is_that_the_door"]
